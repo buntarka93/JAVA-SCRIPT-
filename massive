@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<script>
+
+var arr=[5,6,8,6,8,9]; //array-массив 
+alert(arr);
+alert(arr[4]);//будет 8
+
+
+var a=prompt("Введем новое число массива");
+arr.push(a);
+alert(arr); //добавляет ключ в массив
+
+var k=prompt("Введите следующее число в массив");
+arr.push(k);
+alert(arr); //добавляет ключ в массив
+
+alert("Выведем последний элемент массива ");
+alert (arr.pop()); // достать последний элемент и уничтожить его!
+alert(arr); //
+</script>
+ 
